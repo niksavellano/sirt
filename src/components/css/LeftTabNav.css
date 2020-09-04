@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(156, 156, 187);
+}
+
+.active {
+  background-color: #4c98af;
+}
+.jumbotron {
+  width: 22%;
+  height: 60vh;
+  font-size: 10px;
+}
