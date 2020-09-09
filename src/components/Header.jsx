@@ -24,36 +24,38 @@ class Header extends Component {
         <table className="table">
           <thead>
             <tr>
-              <th>company</th>
+              <th>Company</th>
               <th>Incident no.</th>
               <th>incident type</th>
-              <th>handled by</th>
+              <th>Handled By</th>
             </tr>
           </thead>
           <tbody>
-            <td>
-              <select name="company" id="company">
-                <option value="">PSBank</option>
-              </select>
-            </td>
-            <td>
-              <input type="text" name="" id="" />
-            </td>
-            <td>
-              <select name="incidentType" id="incidentType">
-                <option value=""></option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-            </td>
-            <td>
-              <select name="handledby" id="handledby">
-                <option value=""></option>
-                <option value="">Francis Claudio</option>
-              </select>
-              <button className="btn btn-primary">SAVE</button>
-            </td>
+            <tr>
+              <td>
+                <select name="company" id="company">
+                  <option value="">PSBank</option>
+                </select>
+              </td>
+              <td>
+                <input type="text" name="" id="" />
+              </td>
+              <td>
+                <select name="incidentType" id="incidentType">
+                  <option value=""></option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </select>
+              </td>
+              <td>
+                <select name="handledby" id="handledby">
+                  <option value=""></option>
+                  <option value="">Francis Claudio</option>
+                </select>
+                <button className="btn btn-primary">SAVE</button>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>

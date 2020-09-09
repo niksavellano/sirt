@@ -6,9 +6,11 @@ class riskAssess extends Component {
       <div>
         <table className="table">
           <thead>
-            <th>Incident no.</th>
-            <th>Subject</th>
-            <th>TAT</th>
+            <tr>
+              <th>Incident no.</th>
+              <th>Subject</th>
+              <th>TAT</th>
+            </tr>
           </thead>
         </table>
       </div>

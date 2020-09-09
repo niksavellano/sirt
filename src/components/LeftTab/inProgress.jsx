@@ -6,9 +6,11 @@ class inProgress extends Component {
       <div>
         <table className="table table-hover">
           <thead>
-            <th>Incident no.</th>
-            <th>Subject</th>
-            <th>TAT</th>
+            <tr>
+              <th>Incident no.</th>
+              <th>Subject</th>
+              <th>TAT</th>
+            </tr>
           </thead>
           <tbody>
             <tr>

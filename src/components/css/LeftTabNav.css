@@ -25,7 +25,18 @@ li a:hover:not(.active) {
   background-color: #4c98af;
 }
 .jumbotron {
-  width: 22%;
+  width: 50;
+  margin: 10px;
   height: 60vh;
   font-size: 10px;
+}
+.two {
+  width: 195%;
+  height: 40vh;
+}
+.bot {
+  width: 10%;
+  height: 10%;
+  font-size: 10px;
+  margin: 2px;
 }

@@ -25,3 +25,6 @@ p {
 select {
   width: 200px;
 }
+.flexy {
+  display: flex;
+}
