@@ -36,32 +36,32 @@ class MidTab extends Component {
             <Route path="/incident-summary" component={IncidentSummary}></Route>
           </Switch>
         </div>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Load Incident/ <br />
           Whitepaper
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           New Incident
         </button>
-        <button type="button" class=" bot btn btn-primary">
+        <button type="button" className=" bot btn btn-primary">
           New Whitepaper
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Cancel
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Approval
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Roadmap
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Firewall <br /> Monitoring
         </button>
-        <button type="button" class="bot btn btn-primary">
+        <button type="button" className="bot btn btn-primary">
           Check-in
         </button>
-        <button type="button" class="bot btn btn-danger">
+        <button type="button" className="bot btn btn-danger">
           Exit
         </button>
       </div>
