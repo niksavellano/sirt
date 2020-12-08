@@ -64,6 +64,36 @@ class MidTab extends Component {
         <button type="button" className="bot btn btn-danger">
           Exit
         </button>
+        <div className="btmMid">
+          <div>
+          <p>
+            Incident Description
+          </p>
+          <textarea name="" id="" cols="70" rows="3"></textarea>
+        </div>
+        <div>
+          <p>Activity Log</p>
+          <table>
+            <tr>
+              <th>Activity</th>
+              <th>User Name</th>
+              <th>Date</th>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p className="reference">Reference File</p>
+          <button className="btn1">1</button>
+          <button className="btn1">2</button>
+          <button className="btn1">3</button>
+          <button className="btn1">4</button>
+          <table>
+            <tr>
+              <th>File Name</th>
+            </tr>
+          </table>
+        </div>
+        </div>
       </div>
     );
   }

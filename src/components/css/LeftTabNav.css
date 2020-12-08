@@ -31,7 +31,7 @@ li a:hover:not(.active) {
   font-size: 10px;
 }
 .two {
-  width: 195%;
+  width: 130%;
   height: 40vh;
 }
 .bot {
@@ -39,4 +39,9 @@ li a:hover:not(.active) {
   height: 10%;
   font-size: 10px;
   margin: 2px;
+}
+.btmMid{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
